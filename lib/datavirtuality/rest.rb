@@ -7,13 +7,14 @@ require 'json/ext'
 module DataVirtuality
   # DataVirtuality REST client
   class Rest
-    def initialize(host, username, password)
+    def initialize(host, username, password, receive_timeout = 0)
       @host = host
       @username = username
       @password = password
 
       @http_client = HTTPClient.new
       @http_client.set_auth(host, username, password)
+      @http_client.receive_timeout = receive_timeout
     end
 
     def status

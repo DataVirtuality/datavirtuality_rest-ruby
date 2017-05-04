@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name        = 'datavirtuality_rest'
-  s.version     = '0.0.1'
-  s.date        = '2017-04-26'
+  s.version     = '0.0.2'
+  s.date        = '2017-05-04'
   s.summary     = 'A REST client for DataVirtuality'
   s.description = 'Enables easy access to DataVirtuality via its REST API'
   s.authors     = ['DataVirtuality GmbH']

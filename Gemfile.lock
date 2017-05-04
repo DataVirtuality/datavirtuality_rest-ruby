@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    datavirtuality_rest (0.0.1)
+    datavirtuality_rest (0.0.2)
       httpclient
 
 GEM
