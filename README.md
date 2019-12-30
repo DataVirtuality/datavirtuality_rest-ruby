@@ -1,6 +1,6 @@
-# DataVirtuaity REST Client
+# Data Virtuaity REST Client
 
-Easy way to retrieve data from your DataVirtuality server via the REST API to consume data in any Ruby application.
+Easy way to retrieve data from your Data Virtuality server via the REST API to consume data in any Ruby application.
 
 ## Installation
 
@@ -30,7 +30,7 @@ Now you can retrieve data in two ways:
         => [{:id=>"438256", :date=>"2017-04-01", :hits=>331}, {:id=>"438918", :date=>"2017-04-01", :hits=>314}]
 
 
-2. Specify a customer SQL query to gain full flexibility:
+2. Specify a custom SQL query to gain full flexibility:
 
         > client.query('SELECT * FROM views.demo_view')
         => [{:id=>"438918", :date=>"2017-04-01", :hits=>886}, {:id=>"431936", :date=>"2017-02-02", :hits=>389}])
