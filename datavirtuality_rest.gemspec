@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.description = 'Enables easy access to Data Virtuality via its REST API'
   s.authors     = ['Data Virtuality GmbH']
   s.email       = 'support@datavirtuality.com'
-  s.files       = Dir.glob("{bin,lib}/**/*") + %w(README.md LICENSE.txt)
+  s.files       = Dir.glob('{bin,lib}/**/*') + %w[README.md LICENSE.txt]
   s.homepage    = 'http://www.datavirtuality.com'
   s.license     = 'MIT'
 
   s.add_runtime_dependency 'httpclient'
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rubocop'
   s.add_development_dependency 'vcr'
   s.add_development_dependency 'webmock'
-  s.add_development_dependency 'rubocop'
 end

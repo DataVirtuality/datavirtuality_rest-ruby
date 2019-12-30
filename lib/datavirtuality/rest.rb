@@ -61,8 +61,8 @@ module DataVirtuality
       if result[:status] != 200
         error = begin
           JSON.parse result[:body]
-        rescue => e
-          raise RestException, e.message
+                rescue StandardError => e
+                  raise RestException, e.message
         end
 
         raise RestException, error['description'], error['hint']
