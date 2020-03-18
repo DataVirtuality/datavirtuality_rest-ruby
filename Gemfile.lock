@@ -43,6 +43,8 @@ GEM
       rexml
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-rspec (1.38.1)
+      rubocop (>= 0.68.1)
     ruby-progressbar (1.10.1)
     safe_yaml (1.0.5)
     unicode-display_width (1.6.1)
@@ -59,6 +61,7 @@ DEPENDENCIES
   datavirtuality_rest!
   rspec
   rubocop
+  rubocop-rspec
   vcr
   webmock
 

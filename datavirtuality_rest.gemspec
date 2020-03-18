@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'httpclient'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'rubocop-rspec'
   s.add_development_dependency 'vcr'
   s.add_development_dependency 'webmock'
 end
