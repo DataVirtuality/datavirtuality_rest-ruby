@@ -11,7 +11,9 @@ describe DataVirtuality::Rest, :vcr do
 
   describe '#data_sources' do
     it 'returns data sources' do
-      expect(client.data_sources).to eq(%w[SYS SYSADMIN UTILS pg_catalog views minter_examples similarweb similarweb_examples])
+      expect(client.data_sources).to eq(
+        %w[SYS SYSADMIN UTILS pg_catalog views minter_examples similarweb similarweb_examples]
+      )
     end
   end
 

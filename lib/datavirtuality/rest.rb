@@ -26,7 +26,7 @@ module DataVirtuality
     end
 
     def get(table)
-      json_response(http_get('source/' + table))
+      json_response(http_get("source/#{table}"))
     end
 
     def query(sql)
@@ -54,7 +54,7 @@ module DataVirtuality
     end
 
     def endpoint(path)
-      host + '/rest/api/' + path
+      "#{host}/rest/api/#{path}"
     end
 
     def json_response(result)
