@@ -8,11 +8,11 @@ http_interactions:
       string: '{"sql":"SELECT * FROM SYS.DoesNotExist"}'
     headers:
       User-Agent:
-      - HTTPClient/1.0 (2.8.3, ruby 2.4.0 (2016-12-24))
+      - HTTPClient/1.0 (2.8.3, ruby 2.6.3 (2019-04-16))
       Accept:
       - "*/*"
       Date:
-      - Wed, 26 Apr 2017 09:13:20 GMT
+      - Wed, 09 Sep 2020 11:33:07 GMT
       Content-Type:
       - application/json
       Authorization:
@@ -29,13 +29,12 @@ http_interactions:
       Transfer-Encoding:
       - chunked
       Date:
-      - Wed, 26 Apr 2017 09:13:20 GMT
+      - Wed, 09 Sep 2020 11:33:08 GMT
       Connection:
       - close
     body:
       encoding: UTF-8
       string: '{"title":"Something is wrong","description":"Table or View name does
-        not exist: SYS.DoesNotExist","hint":null}'
-    http_version: 
-  recorded_at: Wed, 26 Apr 2017 09:13:20 GMT
-recorded_with: VCR 3.0.3
+        not exist or View is in FAILED state: SYS.DoesNotExist","hint":null}'
+  recorded_at: Wed, 09 Sep 2020 11:33:08 GMT
+recorded_with: VCR 6.0.0
