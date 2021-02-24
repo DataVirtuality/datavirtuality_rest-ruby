@@ -3,7 +3,6 @@
 Gem::Specification.new do |s|
   s.name        = 'datavirtuality_rest'
   s.version     = '0.0.2'
-  s.date        = '2017-05-04'
   s.summary     = 'A REST client for Data Virtuality'
   s.description = 'Enables easy access to Data Virtuality via its REST API'
   s.authors     = ['Data Virtuality GmbH']
